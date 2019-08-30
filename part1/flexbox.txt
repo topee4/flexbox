@@ -1,0 +1,22 @@
+part1:
+
+display: flex; ---> this is set for continued functionality of flexbox
+justify-content: center; ---> justify all elements in center
+justify-content: space-between; ---> first and last elements pressed to border
+justify-content: space-around; ---> first and last elements have margins from border
+align-items: stretch; ---> set by default
+align-items: flex-start; ---> aligns height
+align-items: flex-end; ---> aligns height
+align-items: flex-center; ---> aligns height
+align-items: baseline; ---> baseline == flex-start. But aligns to under part of picture other elements
+
+
+
+part2:
+
+flex-direction changes the direction of the axis
+flex-direction: row-reverse; ---> right to left order
+flex-direction: column; --->
+flex-direction: column-reverse; --->
+flex-wrap: wrap; ---> when the screen is enlarged, the elements will be transferred to a new line
+flex-wrap: wrap-reverse;

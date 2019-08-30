@@ -1,0 +1,24 @@
+.wrapper {
+    outline: 1px solid black;
+    background: lightcoral;
+}
+.flex-cont {
+    display: flex;
+    /*flex-direction changes the direction of the axis*/
+    /*flex-direction: row-reverse; ---> right to left order*/
+    /*flex-direction: column; --->*/
+    /*flex-direction: column-reverse; --->*/
+    /*flex-wrap: wrap; ---> when the screen is enlarged, the elements will be transferred to a new line*/
+    /*flex-wrap: wrap-reverse;*/
+}
+.flex-cont a {
+    background: green;
+    color: lightsalmon;
+    margin: 5px;
+    padding: 10px;
+    font-size: 22px;
+}
+.flex-cont a:nth-child(odd) {
+    background: darkgreen;
+    color: darkorange;
+}
